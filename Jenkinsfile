@@ -7,7 +7,7 @@ pipeline {
         stage('CodeCollection') {
 			agent any
             steps {
-                git 'https://github.com/pavansw/simpleMavenJunit.git'
+                git 'https://github.com/KirtiLipu/simple-java-maven-app.git'
             }
         }
 		stage('Compilation'){
